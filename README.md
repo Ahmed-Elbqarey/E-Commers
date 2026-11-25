@@ -1,6 +1,14 @@
 # E-Commerce Store
+Full-stack e-commerce app with user accounts, cart, checkout and an admin dashboard.
 
-A full-stack e-commerce application built with React, Node.js, Express, and MongoDB.
+**Stack:** React, Material-UI, React Router, Axios, Node.js, Express, MongoDB (Mongoose), JWT auth, bcrypt.
+
+**Highlights**
+- Register/login with JWT, admin approval of new users
+- Cart saved in localStorage, checkout with Egyptian phone validation, cash on delivery, 15% tax, free shipping over $100
+- Order status flow: pending, processing, shipped, delivered; users can cancel pending orders
+- Admin: manage users, products and orders, plus a stats dashboard
+
 
 ## Features
 
